@@ -1,0 +1,378 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	background: #bb3693;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #ce3bd3;
+	text-decoration: underline;
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.produtos li:hover {
+	border-color: #c4189ea2;
+}
+
+.produtos li:active {
+	border-color: #ca038f;	
+}
+
+.produtos li:hover h2 {
+	font-size: 34px;
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produto-descricao {
+	font-size: 18px;
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+footer {
+	text-align: center;
+	background: url("../img/bg2.png");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+
+form {
+	
+		width: 700px; 
+		margin-top: 20px;
+		margin-left: auto;
+		margin-right: auto; 
+	
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width:40%;
+	padding: 15px 0;
+	background: rgb(212, 104, 207);
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: rgb(212, 104, 207);
+	transform: scale(1.2);
+}
+
+.limpar {
+	width:20%;
+	padding: 15px 0;
+	margin-left: 30px;
+	background: rgb(212, 104, 207);
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.limpar:hover{
+	background: rgb(212, 104, 207);
+	transform: scale(1.2);
+}
+
+table {
+	width: 700px;
+	margin-top: 20px; 
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+thead {
+	background: #da5ba5;
+	color: rgb(177, 13, 177);
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
+
+
+/* css da página inicial */
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}
+
+.principal {
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.principal p {
+	margin: 0 0 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.utensilios {
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.mapa {
+	padding: 3em 0;
+	background: linear-gradient(#FEFEFE, #d34fb2);
+}
+
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.beneficios {
+	padding: 3em 0;
+	background: #d649ac;
+}
+
+.conteudo-beneficios {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.lista-beneficios {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.itens {
+	line-height: 1.5;
+}
+
+.itens:first-child {
+	font-weight: bold;
+}
+
+.itens:before {
+	content: "🟊";
+}
+
+.imagem-beneficios {
+	width: 60%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imagem-beneficios:hover {
+	opacity: 0.3;
+}
+
+.video {
+	width: 560px;
+	margin: 2em auto;
+}
+
+
+address {
+  text-align: center; 
+  display: block;
+  font-style: italic;
+} 
+
+.endereco{
+
+	color: rgb(156, 19, 133);
+	text-decoration: none;
+	cursor: pointer;
+}
+
+figure {
+	text-align: center;
+}
+
+aside {
+  width: 30%;
+  padding-left: 10px;
+  font-style: italic;
+  background-color: rgb(214, 55, 188);
+}
+
+/* Dropdown Menu */
+
+/* Botão Dropdown */
+.dropbtn {
+  background-color: rgba(47, 4, 165, 0.699);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+}
+
+/* A posição da div <div> - é necessária para posicionar o conteúdo */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Conteúdo do Dropdown (Escondido) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links dentro do dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Muda a cor fundo dos links quando o mouse está em cima */
+.dropdown-content a:hover {background-color: black;}
+
+/* Mostra o conteúdo do menu quando o mouse está em cima */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Muda a cor do fundo do botão dropdown quando o conteúdo é exibido*/
+.dropdown:hover .dropbtn {background-color: rgb(79, 10, 136);}
+
+
+.formulario-titulo {
+	font-size: 1.5rem;
+}
+
+
+.sessaoprodutos {
+	margin: 3rem 0;
+}
+
+.sobreodesenvolvedor {
+	margin: 10rem 0;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 480px) {
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	.lista-beneficios, .imagem-beneficios {
+		width: 100%;
+	}
+}

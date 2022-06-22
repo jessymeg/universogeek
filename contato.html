@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Contato Universo Geek</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<div class="caixa">
+				<h1><img src="img/universo_geek_logo.png" width="150" alt="Logo"></h1>
+
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="contato.html">Contato</a></li>
+						<div class="dropdown">
+				  			<button class="dropbtn">Ver mais</button>
+				  				<div class="dropdown-content">
+				    				<a href="creditos.html">Sobre</a>
+				  				</div>
+						</div>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<form>
+				<label for="nomef">Nome</label>
+				<input type="text" id="nomef" name="nomef" class="input-padrao" required placeholder="Jessica Vicent">
+
+				<label for="emailf">Email</label>
+				<input type="email" id="emailf" name="emailf" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+				<label for="telefonef">Telefone</label>
+				<input type="tel" id="telefonef" name="telefonef" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+				<label for="mensagemf">Mensagem</label>
+				<textarea cols="70" rows="10" id="mensagemf" name="mensagemf" class="input-padrao" required placeholder="Escreva sua mensagem aqui..."></textarea>
+
+				<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+
+				<input type="button" value="Enviar" class="limpar" onclick="CadastroCliente()">
+				
+				<input type="reset" value="Limpar" class="limpar"></br></br>
+
+				<br><h2 class="formulario-titulo"><strong>Dados cadastrados:</strong></h2><br>
+				<label for="nomec">Nome: </label>
+				<label id="nomec"></label>
+				<label for="emailc">Email: </label>
+				<label id="emailc"></label>
+				<label for="telefonec">Telefone: </label>
+				<label id="telefonec"></label>
+				<label for="mensagemc">Mensagem: </label>
+				<label id="mensagemc"></label><br><br>
+
+			</form>
+		</main>
+
+		<footer>
+			<img src="img/universo_geek_logo.png" width="150" alt="Logo">
+			<p class="copyright">Universo Geek</p>
+		</footer>
+		<script src="./script/enviar.js"></script>
+	</body>
+</html>
